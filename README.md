@@ -5,7 +5,8 @@ PROJETO AWS REDUÇÃO DE CUSTO
 
 Projeto sugerido pelo curso Formação AWS Cloud Practitioner Certification na plataforma da DIO . Redução dos Custos em Farmácias com AWS.
 
-
+# Big Game Survey
+[![NPM].(https://img.shields.io/npm/1/react).].(https://github.com/SuelenGuariz/ProjetosDIO-AwsEstudos/blob/main/LICENSE)
 
 PharmaTech Solutions
 
@@ -47,6 +48,7 @@ A implementação dessas ferramentas permitirá à Pharma Tech Solutions reduzir
 
 
 SUELEN GUARIZ 
+
 Assinatura do Responsável pelo Projeto:
 
 SUELEN GUARIZ 
