@@ -6,7 +6,8 @@ PROJETO AWS REDUÇÃO DE CUSTO
 Projeto sugerido pelo curso Formação AWS Cloud Practitioner Certification na plataforma da DIO . Redução dos Custos em Farmácias com AWS.
 
 # Big Game Survey
-[![NPM].(https://img.shields.io/npm/1/react).].(https://github.com/SuelenGuariz/ProjetosDIO-AwsEstudos/blob/main/LICENSE)
+[![NPM](https://img.shields.io/npm/v/react)](https://github.com/SuelenGuariz/ProjetosDIO-AwsEstudos/blob/main/LICENSE)
+
 
 PharmaTech Solutions
 
