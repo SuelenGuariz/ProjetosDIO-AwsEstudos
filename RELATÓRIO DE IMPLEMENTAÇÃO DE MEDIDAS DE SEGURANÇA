@@ -1,0 +1,78 @@
+
+RELATÓRIO DE IMPLEMENTAÇÃO DE MEDIDAS DE SEGURANÇA NA BLACKHEARTSG TECH
+Data: 2023-11-14
+
+Empresa: BLACKHEARTSG TECH
+
+Responsável: SUELEN GUARIZ
+
+Introdução:
+
+Este relatório apresenta o processo de implementação de medidas de segurança na empresa BLACKHEARTSG TECH, realizado por Suelen Guariz. O objetivo do projeto foi fortalecer a segurança da empresa através da implementação de 3 medidas de segurança em conjunto com os serviços da AWS.
+
+Descrição do Projeto:
+
+O projeto de implementação de ferramentas foi dividido em 3 medidas de segurança:
+
+1. Controle de Acesso:
+
+Objetivo: Restringir o acesso aos recursos da empresa apenas aos usuários autorizados.
+
+Ações:
+
+Criação de contas de usuários individuais na AWS com políticas de acesso granulares, definindo permissões específicas para cada função na empresa.
+Implementação de autenticação multifator (MFA) para todos os usuários, reforçando a segurança do login e prevenindo acessos não autorizados.
+Monitoramento regular de atividades e logs de acesso, permitindo a identificação de atividades suspeitas e a investigação de possíveis violações.
+Exemplo:
+
+Em um ataque de força bruta, um hacker tenta adivinhar a senha de um usuário. Com a MFA ativada, mesmo que o hacker consiga adivinhar a senha, ele ainda precisaria do código de autenticação único enviado para o dispositivo do usuário para acessar a conta.
+
+2. Monitoramento e Detecção de Ameaças:
+
+Objetivo: Identificar e responder rapidamente a ameaças à segurança da empresa.
+
+Ações:
+
+Implementação da solução Amazon CloudWatch, que monitora logs, tráfego de rede e atividades de usuários em tempo real, fornecendo visibilidade completa da infraestrutura da empresa.
+Configuração de alertas automáticos para eventos de segurança suspeitos, permitindo uma resposta rápida a incidentes de segurança.
+Criação de um plano de resposta a incidentes, definindo os procedimentos a serem seguidos em caso de diferentes tipos de ameaças, como ataques cibernéticos ou violações de dados.
+Exemplo:
+
+Um ataque de ransomware pode criptografar os dados da empresa e exigir um resgate para liberá-los. Com o CloudWatch monitorando a infraestrutura da empresa, o ataque pode ser detectado rapidamente e medidas podem ser tomadas para minimizar o impacto do ataque.
+
+3. Proteção de Dados e Tráfego:
+
+Objetivo: Proteger os dados confidenciais da empresa contra acesso não autorizado e perda.
+
+Ações:
+
+Criptografia de dados confidenciais em repouso e em trânsito utilizando o serviço AWS Key Management Service (KMS), garantindo a confidencialidade das informações mesmo em caso de acesso indevido.
+Implementação de firewalls de aplicativos web (WAF) com o AWS WAF, protegendo contra ataques web comuns, como injeções de SQL e scripts entre sites.
+Uso de VPNs com o AWS Site-to-Site VPN para garantir conexões seguras à rede da empresa, protegendo o tráfego de dados contra interceptação e ataques.
+Exemplo:
+
+Um ataque de phishing tenta enganar os usuários para que revelem suas informações de login ou cliquem em links maliciosos. Com o WAF em vigor, a empresa estará protegida contra ataques de phishing direcionados ao seu site.
+
+Importância das Medidas de Segurança:
+
+As medidas de segurança são cruciais para a proteção da empresa contra ataques cibernéticos e para a segurança de seus dados. Elas são importantes para:
+
+Proteger dados confidenciais: A perda de dados confidenciais pode ter um impacto significativo na empresa, incluindo danos à reputação, perda de clientes e multas regulatórias.
+Prevenir ataques cibernéticos: Os ataques cibernéticos podem causar disrupções nos negócios, perda de dados e danos financeiros.
+Manter a conformidade com as regulamentações: Diversas regulamentações exigem que as empresas implementem medidas de segurança para proteger dados confidenciais.
+Aumentar a confiança dos clientes e parceiros: A implementação de medidas de segurança demonstra o compromisso da empresa com a proteção de dados e aumenta a confiança dos clientes e parceiros.
+Conclusão:
+
+A implementação das medidas de segurança na BLACKHEARTSG TECH contribuiu significativamente para a proteção da empresa contra ameaças cibernéticas e para a segurança de seus dados. Recomenda-se a revisão e atualização periódicas das medidas de segurança, bem como a busca por novas tecnologias que possam melhorar ainda mais a segurança da empresa.
+
+Anexos:
+
+Lista de ferramentas implementadas com descrições detalhadas.
+Manuais de configuração e operação das ferramentas.
+Documentação sobre políticas de segurança e procedimentos.
+Planilhas de monitoramento e relatórios de atividades.
+
+Bibliografia:
+
+Amazon Web Services. (2023). Segurança na Nuvem AWS: https://aws.amazon.com/pt/security/
+National Institute of Standards and Technology. (2023). Cybersecurity Framework: https://www.nist.gov/cyberframework
